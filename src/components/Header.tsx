@@ -36,9 +36,13 @@ export default function Header() {
     return () => document.removeEventListener('mousedown', onClickOutside)
   }, [])
 
+  // Current page is marked with an underline, not a pill — and with
+  // aria-current so it is not signalled by colour alone.
   const linkClass = (href: string) =>
-    `text-sm font-semibold transition-colors duration-200 ${
-      pathname === href ? 'text-primary' : 'text-ink hover:text-primary'
+    `text-base font-semibold transition-colors duration-[140ms] ${
+      pathname === href
+        ? 'text-primary underline underline-offset-[10px] decoration-2'
+        : 'text-ink hover:text-primary'
     }`
 
   return (
@@ -62,7 +66,7 @@ export default function Header() {
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-7" aria-label="Main navigation">
-            <Link href="/" className={linkClass('/')}>Home</Link>
+            <Link href="/" className={linkClass('/')} aria-current={pathname === '/' ? 'page' : undefined}>Home</Link>
 
             <div className="relative" ref={dropdownRef}>
               <button
@@ -109,8 +113,8 @@ export default function Header() {
               )}
             </div>
 
-            <Link href="/about" className={linkClass('/about')}>About</Link>
-            <Link href="/contact" className={linkClass('/contact')}>Contact</Link>
+            <Link href="/about" className={linkClass('/about')} aria-current={pathname === '/about' ? 'page' : undefined}>About</Link>
+            <Link href="/contact" className={linkClass('/contact')} aria-current={pathname === '/contact' ? 'page' : undefined}>Contact</Link>
             <a href={`tel:${site.phoneRaw}`} className="btn-splash text-sm !py-2.5 !px-5 ml-2">
               {site.phoneDisplay}
             </a>
