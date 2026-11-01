@@ -8,7 +8,7 @@ export const site = {
   name: 'Acadian Water Solutions',
   legalName: 'Acadian Water Solutions',
   domain: 'acadianwatersolutions.com',
-  phoneDisplay: '(985) 227-2591', // PLACEHOLDER — confirm business line before launch
+  phoneDisplay: '(985) 227-2591', // Dax's cell, confirmed as the business line 2026-11-01
   phoneRaw: '+19852272591',
   email: 'acadianwatersolutions@gmail.com', // client business inbox, confirmed 2026-11-01
   city: 'Baton Rouge',
