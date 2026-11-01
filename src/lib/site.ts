@@ -10,7 +10,7 @@ export const site = {
   domain: 'acadianwatersolutions.com',
   phoneDisplay: '(985) 227-2591', // PLACEHOLDER — confirm business line before launch
   phoneRaw: '+19852272591',
-  email: 'daynetrosclair@icloud.com', // TEST — swap to client email before launch
+  email: 'acadianwatersolutions@gmail.com', // client business inbox, confirmed 2026-11-01
   city: 'Baton Rouge',
   state: 'LA',
   stateFull: 'Louisiana',
