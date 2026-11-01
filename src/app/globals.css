@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans text-ink;
+  }
+
+  /* Visible keyboard focus indicator (WCAG 2.4.7 / 2.4.11). */
+  :focus-visible {
+    outline: 2px solid theme('colors.accent.dark');
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Skip-to-content link: hidden until keyboard-focused (WCAG 2.4.1). */
+  .skip-link {
+    @apply sr-only;
+  }
+  .skip-link:focus {
+    @apply not-sr-only fixed top-4 left-4 z-[100] bg-ink text-white font-semibold px-5 py-3 rounded-[4px] shadow-lg;
+  }
+
+  .btn-splash {
+    @apply bg-primary text-white font-semibold px-5 min-h-[48px] inline-flex items-center justify-center rounded-[2px] transition-colors duration-[140ms] hover:bg-primary-dark;
+  }
+
+  .btn-ink {
+    @apply bg-ink text-white font-semibold px-5 min-h-[48px] inline-flex items-center justify-center rounded-[2px] transition-colors duration-[140ms] hover:bg-ink-soft;
+  }
+
+  .btn-outline-ink {
+    @apply border border-primary text-primary bg-white font-semibold px-5 min-h-[48px] inline-flex items-center justify-center rounded-[2px] transition-colors duration-[140ms] hover:bg-primary hover:text-white;
+  }
+
+  .section-padding {
+    @apply py-14 md:py-[72px] lg:py-[104px];
+  }
+
+  .container-wide {
+    @apply max-w-content mx-auto px-5 md:px-8 lg:px-12;
+  }
+
+  .section-label {
+    @apply text-primary uppercase text-[13px] font-semibold font-sans;
+    letter-spacing: 0.07em;
+  }
+
+  /* The signature: the logo's splash as a thin waterline under headings. */
+  .waterline {
+    @apply hidden;
+  }
+  .waterline--center {
+    @apply mx-auto;
+  }
+}
+
+
+/* ---- "Inside the System" type scale (Codex art direction) ---- */
+@layer base {
+  h1, h2, h3, h4 {
+    font-family: var(--font-display), system-ui, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    color: #02263E;
+  }
+  h1 { font-weight: 700; font-size: 40px; line-height: 1.05; }
+  h2 { font-size: 32px; line-height: 1.12; }
+  h3 { font-size: 23px; line-height: 1.2; }
+  body { font-size: 17px; line-height: 1.55; }
+  @media (min-width: 768px) {
+    h1 { font-size: 48px; line-height: 1.02; }
+    h2 { font-size: 34px; line-height: 1.1; }
+    h3 { font-size: 24px; }
+    body { font-size: 18px; }
+  }
+  @media (min-width: 1024px) {
+    h1 { font-size: 64px; }
+    h2 { font-size: 40px; }
+    h3 { font-size: 25px; }
+  }
+  p { max-width: 62ch; }
+}
+
+/* Motion explains a state change; nothing animates for decoration. */
+@layer base {
+  a, button, input, select, textarea, [role="button"] {
+    transition: color 140ms ease, background-color 140ms ease, border-color 140ms ease;
+  }
+  :focus-visible {
+    outline: 3px solid #015291;
+    outline-offset: 3px;
+  }
+  .on-ink :focus-visible { outline-color: #FFFFFF; }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
