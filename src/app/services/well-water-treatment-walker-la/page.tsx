@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: 'Why is well water around Walker so high in iron?',
-    a: 'The shallow aquifers under Livingston Parish run high in dissolved iron and manganese. USGS groundwater studies of the parish have documented that pattern. Wells around Walker, Watson, and Holden draw from exactly that water. That is why orange staining shows up in almost every well home here that has no filter. It is a geology problem, and it has an equipment fix.',
+    a: 'The shallow aquifers under Livingston Parish run high in dissolved iron and manganese. USGS groundwater studies of the parish have documented that pattern. Wells around Walker, Watson, and Holden draw from exactly that water. Orange staining shows up in almost every well home here that has no filter. It is a geology problem, and it has an equipment fix.',
   },
   {
     q: 'Do you actually come out to Walker, or just Baton Rouge?',

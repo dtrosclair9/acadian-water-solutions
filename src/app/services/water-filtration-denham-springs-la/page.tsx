@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: 'What does a filtration system cost in Denham Springs?',
-    a: 'The Complete Home Package is $4,950 installed. Buying each system on its own costs more, so the package can save you up to 40%. Many Denham Springs homes need less than the full package. That is why the free in-home water test comes first. We quote the one system your water actually needs, and installation is free either way.',
+    a: 'The Complete Home Package is $4,950 installed. Buying each system on its own costs more, so the package can save you up to 40%. Many Denham Springs homes need less than the full package. The free in-home test tells us which one yours is. We quote the one system your water actually needs, and installation is free either way.',
   },
   {
     q: 'Do you serve all of Livingston Parish?',

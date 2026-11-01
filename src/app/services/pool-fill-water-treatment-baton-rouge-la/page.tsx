@@ -64,7 +64,7 @@ const faqs = [
   },
   {
     q: 'Can you remove iron from my water without softening it?',
-    a: 'Yes, and that is the right approach for a pool home. Oxidising filter media handle iron, manganese and sulfur while leaving calcium hardness alone. That matters here because the softener that solves scale in the house is the wrong thing on a pool fill line. The two jobs need different equipment, which is why we test before recommending anything.',
+    a: 'Yes, and that is the right approach for a pool home. Oxidising filter media handle iron, manganese and sulfur while leaving calcium hardness alone. That matters here because the softener that solves scale in the house is the wrong thing on a pool fill line. The two jobs need different equipment, so we test before recommending anything.',
   },
   {
     q: 'Do you clean pools or sell pool chemicals?',
@@ -125,8 +125,8 @@ export default function PoolFillWaterBatonRougePage() {
           <p className="mt-7 text-lg leading-relaxed text-zinc-600">
             Water evaporates. Minerals and metals do not. Every top-off adds a little
             more of whatever your tap carries, and none of it leaves. A pool on
-            iron-bearing water slowly becomes an iron concentrator, which is why the
-            staining tends to get worse each season rather than better.
+            iron-bearing water slowly becomes an iron concentrator. The
+              staining tends to get worse each season rather than better.
           </p>
           <p className="mt-5 text-lg leading-relaxed text-zinc-600">
             Testing the fill water is standard practice in the pool trade, not a

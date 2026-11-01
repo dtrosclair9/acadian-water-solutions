@@ -110,7 +110,7 @@ export default function SampleReport() {
                     />
                     {r.measure}
                   </span>
-                  <span className="sr-only"> — {stateStyles[r.state].label}</span>
+                  <span className="sr-only">: {stateStyles[r.state].label}</span>
                 </th>
                 {/* The value must not wrap, but the note beneath it must. Keep
                     nowrap on the value span only: on the cell it is inherited by

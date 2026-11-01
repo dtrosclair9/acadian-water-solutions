@@ -74,7 +74,7 @@ export default function PoolFillWaterThibodauxPage() {
       <JsonLd data={serviceSchema} />
       <PageHero
         title="Pool Fill Water Treatment in Thibodaux, Louisiana"
-        intro="Your pool is filled and topped off from the same line that feeds your house, and around here that line traces back to Bayou Lafourche. Surface water is not the same from month to month, which is why pool chemistry down the bayou so often refuses to sit still. We test the water going in."
+        intro="Your pool is filled and topped off from the same line that feeds your house, and around here that line traces back to Bayou Lafourche. Surface water is not the same from month to month, so pool chemistry down the bayou rarely sits still. We test the water going in."
         crumbs={[
           { name: 'Home', href: '/' },
           { name: 'Services', href: '/services' },
@@ -124,7 +124,7 @@ export default function PoolFillWaterThibodauxPage() {
           <p className="mt-5 leading-relaxed text-zinc-600">
             A pool concentrates all of it. Water evaporates and minerals stay, so every
             top-off through a dry spell leaves a little more behind than the one before.
-            That is why a pool here can be balanced in spring and fighting you by late
+            A pool here can be balanced in spring and fighting you by late
             summer without anything about the pool itself having changed.
           </p>
           <div className="mt-10 space-y-7">

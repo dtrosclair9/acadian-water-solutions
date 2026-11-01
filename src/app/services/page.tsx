@@ -75,7 +75,7 @@ export default function ServicesIndexPage() {
             When your water does need help, the test shows which system fits. City water
             in Baton Rouge is one problem. Harder groundwater out in the parishes is
             another. Private wells around Walker and Prairieville are a third. Each one
-            needs a different fix. That is why we test before we quote.
+            needs a different fix, so we test before we quote.
           </p>
         </div>
       </section>

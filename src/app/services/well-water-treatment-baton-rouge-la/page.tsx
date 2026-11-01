@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: 'Why does my well water smell like rotten eggs?',
-    a: 'That rotten-egg smell is sulfur gas, and it is one of the most common well water complaints in Livingston and Ascension Parish. It forms naturally underground and escapes the moment you open a tap. That is why the smell hits hardest in a hot shower. A dedicated sulfur filter traps the gas before it reaches your plumbing, so the odor is gone at every faucet.',
+    a: 'That rotten-egg smell is sulfur gas, and it is one of the most common well water complaints in Livingston and Ascension Parish. It forms naturally underground and escapes the moment you open a tap. The smell hits hardest in a hot shower. A dedicated sulfur filter traps the gas before it reaches your plumbing, so the odor is gone at every faucet.',
   },
   {
     q: 'What causes orange or brown stains on my tubs and laundry?',
@@ -103,8 +103,8 @@ export default function WellWaterPage() {
               <h3 className="text-xl font-semibold">Rotten-egg smell in the shower</h3>
               <p className="mt-3 leading-relaxed text-zinc-600">
                 That smell is sulfur gas, dissolved in the water deep underground. It
-                escapes the moment the water hits the air. Hot water makes it worse,
-                which is why the shower is where most people finally decide to fix it.
+                escapes the moment the water hits the air. Hot water makes it worse, and the shower is
+                  where most people finally decide to fix it.
                 The right filter removes it for good.
               </p>
             </div>

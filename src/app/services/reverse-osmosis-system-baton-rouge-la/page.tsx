@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: 'What does a reverse osmosis system remove?',
-    a: 'Reverse osmosis strips water down to nearly pure water by pushing it through a very fine filter. That filter blocks not just particles but dissolved minerals too. So it takes out the chlorine and leftover tastes that a basic filter misses, along with a wide range of dissolved minerals. The result at the faucet is the cleanest water you can get in a home. That is why bottling plants use reverse osmosis too.',
+    a: 'Reverse osmosis strips water down to nearly pure water by pushing it through a very fine filter. That filter blocks not just particles but dissolved minerals too. So it takes out the chlorine and leftover tastes that a basic filter misses, along with a wide range of dissolved minerals. The result at the faucet is the cleanest water you can get in a home. Bottling plants run the same process.',
   },
   {
     q: 'What is the difference between tankless and tank-style RO?',
