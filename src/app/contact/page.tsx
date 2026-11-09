@@ -10,7 +10,7 @@ const PATH = '/contact'
 export const metadata: Metadata = {
   title: { absolute: 'Book a Free Water Test | Baton Rouge, LA' },
   description:
-    'Book a free in-home water test in the Baton Rouge area. Call (985) 227-2591 or send the form and we will schedule your 30-minute visit. No obligation.',
+    'Book a free in-home water test in the Baton Rouge area. Call (225) 345-9112 or send the form and we will schedule your 30-minute visit. No obligation.',
   alternates: { canonical: pageUrl(PATH) },
   openGraph: {
     title: 'Book Your Free Water Test in Baton Rouge, LA | Acadian Water Solutions',
