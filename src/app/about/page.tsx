@@ -80,7 +80,7 @@ export default function AboutPage() {
     <>
       <JsonLd data={aboutPageSchema} />
       <PageHero
-        title="About Acadian Water Solutions"
+        title="About Acadian Water Solutions, Baton Rouge & Thibodaux"
         intro="A water treatment specialist for the greater Baton Rouge area. We test water, treat water, and stand behind every system we install. Water is all we do, and that focus is why the work holds up."
         crumbs={[
           { name: 'Home', href: '/' },

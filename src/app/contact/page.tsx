@@ -157,6 +157,7 @@ export default function ContactPage() {
               Request your free water test
             </h2>
             <span className="waterline mt-5" aria-hidden="true" />
+            <p className="mt-6 leading-relaxed text-zinc-600">Tell us where you live and what you notice about your water, and we will set up a time to test it.</p>
             <div className="mt-8">
               <ContactForm />
             </div>
